@@ -7,8 +7,12 @@ These projects are based on Abhay Parashar's https://towardsdatascience.com/10-p
    Prints a random integer between 1 and 6. Added a message when the user input isn't roll or exit.
 
 2. 🔮 <b>Number guessing game: </b>
-   Program selects a random integer between 1 and 10, and user has 3 chances to guess the selected number. Added a try-except function to display an error message if the user input is not a 1-10 integer and other game messages.
+   Program selects a random integer between 1 and 10, and user has 3 chances to guess the selected number. Added a try-except function to display an error message if the       user input is not a 1-10 integer and other game messages.
 
 3. 🔐 <b>Random password generator: </b>
    Generates a random password of the lenght the user input. Changed function random.sample to random.choices to allow passwords longer than the string of all characters.
+
+4. 🗃️ <b>PDF merger:</b>
+   This script traverses subfolders named with 5 digits within a "Data" folder, merges all the PDF files within these subfolders, and saves the resulting file under the      name of the subfolder.
+   
    
